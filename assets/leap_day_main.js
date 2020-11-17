@@ -16,6 +16,6 @@ $(function() {
     // $("html, body").animate({scrollTop: position}, 400);
     $("nav ul li a").parent().removeClass("active");
     $(this).parent().addClass("active");
-    event.preventDefault();
+    // event.preventDefault();
   });
 });
