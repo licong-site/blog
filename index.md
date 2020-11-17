@@ -1,11 +1,11 @@
 ---
-layout: cayman_default
+layout: cayman_home
 ---
 
 ## 浏览器
 
 - [浏览器工作原理](./browser/index)
 
-## Javascript
+## JavaScript
 
 - [闭包](./js/bibao)
