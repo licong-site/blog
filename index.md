@@ -8,4 +8,4 @@ layout: cayman_default
 
 ## Javascript
 
-- [浏览器工作原理](/js/bibao)
+- [闭包](./js/bibao)
