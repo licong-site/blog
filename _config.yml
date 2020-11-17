@@ -1,3 +1,7 @@
 theme: jekyll-theme-cayman
 
 title: licong-site
+
+description: Loading
+
+page_excerpts: true
