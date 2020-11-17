@@ -1,4 +1,5 @@
 ---
+title: 向暖のBLOG
 layout: cayman_home
 ---
 
