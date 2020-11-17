@@ -1,12 +1,3 @@
 theme: jekyll-theme-cayman
 
 title: licong-site
-
-page_excerpts: true
-
-baseurl: https://licong-site.github.io/blog/
-
-collections:
-  my_collection:
-    output: true
-    permalink: /:collection/:name
