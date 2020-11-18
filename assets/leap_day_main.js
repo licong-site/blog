@@ -5,7 +5,7 @@
 $(function() {
   $("section h1, section h2, section h3").each(function(){
 
-    var idStr = $(this).text().toLowerCase().replace(/ /g, '-')
+    var idStr = $(this).text().toLowerCase().replace(/ /g, '-').replace(/(、)|(\.)/g, '')
     $("nav ul").append("<li class='tag-" + this.nodeName.toLowerCase() + "'><a href='#" + idStr + "'>" + $(this).text() + "</a></li>");
     $(this).attr("id", idStr);
     $("nav ul li:first-child a").parent().addClass("active");
@@ -16,6 +16,6 @@ $(function() {
     // $("html, body").animate({scrollTop: position}, 400);
     $("nav ul li a").parent().removeClass("active");
     $(this).parent().addClass("active");
-    event.preventDefault();
+    // event.preventDefault();
   });
 });
